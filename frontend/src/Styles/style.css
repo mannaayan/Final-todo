@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav_wrapper{
+  margin: .3rem;
+  border-radius:8px;
+  border: 2px solid rgb(195, 229, 140);
+  text-align: center;
+  color:blueviolet;
+  font-size: 2rem;
+}
+
+/*ADDTODO*/
+
+.addtodos_wrapper{
+  display: flex;
+  border: 2px solid rgb(132, 59, 59);
+  margin: .3rem;
+  padding: .4rem;
+  border-radius:8px;
+  display: flex;
+  flex-direction: row;
+  height: 90px;
+  font-family: "Trirong", serif;
+}
+.form{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  font-size: 2rem;
+}
+
+
+.todo_title{
+  width: 15rem;
+  /* border: 2px solid rgb(132, 59, 59); */
+  border-radius:8px;
+  padding:.5rem;
+  
+
+}
+.add_text{
+  margin-top: .51rem;
+  width: 230px;
+  overflow: hidden;
+  width: 14rem;
+  border: 2px solid rgb(132, 59, 59);
+  border-radius:8px;
+  padding: .8rem;
+  font-size: 1.5rem;
+  font-family: "Trirong", serif;
+   
+}
+.todo_desc{
+  width: 20rem;
+  /* border: 2px solid rgb(132, 59, 59); */
+  border-radius:8px;
+  padding: .5rem;
+} 
+.add_desc{
+  width: 300px;
+  height: auto;
+  overflow: hidden;
+}  
+textarea {
+  /* margin-top: 0.8rem; */
+  resize: none;
+  width: 20rem;
+  border: 2px solid rgb(132, 59, 59);
+  border-radius:8px;
+  padding: .5rem;
+  height: 60px;
+  font-size: 1.5rem;  
+  font-family: "Trirong", serif;
+}
+
+.add_btn{
+  
+  flex-direction: column;
+  align-self:center;
+  font-size: 2rem;
+  border-radius: 8rem;
+  margin-top:0.5rem ;
+  padding: 1rem;
+  align-self: center;
+} 
+
+
+.todos{
+    border: 2px solid rgb(149, 125, 125);
+    background-color: #9689df;
+    margin: 0.5rem;
+    border-radius: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    color: rgb(116, 162, 228); 
+}
+
+
+.todo_list{
+  
+  margin: .3rem;
+  border: 2px solid rgb(195, 229, 140);
+  border-radius:8px;
+  
+  text-align: center;
+  color:blueviolet; 
+  font-size: 2rem;
+}
+
+
+
+/* todo */
+.todos{
+  display: flex;
+  justify-content: space-evenly;
+}
+.todo{
+  width:80rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  align-self: center;  
+  margin: .3rem;
+  border: 2px solid rgb(195, 229, 140);
+  border-radius:8px;
+  
+  text-align: center;
+  color:blueviolet; 
+  font-size: 2rem;
+  
+}
+.t{
+  margin: .5rem;
+  padding: 0.5rem;
+  font-size: 2.1rem;
+  
+  border: 2px solid black;
+  border-radius: 8rem;
+  
+  color: red;
+   
+  flex-direction: row;
+   
+}
+.d{
+  margin: .5rem;
+  padding: 0.5rem;
+  font-size: 2rem;
+  border-radius: 8rem;
+  color: red;
+
+}
+.d_btn{
+  flex-direction: column;
+  align-self:center;
+  font-size: 2rem;
+  border-radius: 8rem;
+  margin-top:0.5rem ;
+  padding: 1rem;
+  align-self: center;
+}
+
+
+
+
+
+
+
+/*
+.todo {
+    background-color: #222;
+    margin: 0.5rem;
+    border-radius: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+  }
+  .todo:hover {
+    background-color: #111;
+  }
+  .todo p {
+    opacity: 0.6;
+  }
+  
+  .btn {
+    border: none;
+    background-color: transparent;
+    color: red;
+    cursor: pointer;
+  }
+  */
+  /*<!-- HTML !-->
+<button class="button-59" role="button">Button 59</button>
+
+/* CSS 
+.add_btn{
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.add_btn:focus {
+  color: #171e29;
+}
+
+.add_btn:hover {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+.add_btn:active {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+@media (min-width: 768px) {
+  .add_btn{
+    min-width: 170px;
+  }
+}
+*/
